@@ -30,7 +30,7 @@ pip install joblib
 pip install pandas
 ```
 ```bash
-pip install sklearn.preprocessing
+pip install scikit-learn
 ```
 ### 2. Run the script 'run.py'
 
