@@ -15,8 +15,14 @@ The goal is to construct an advanced model capable of accurately predicting an i
 
 Follow these steps to get the model running locally.
 
-### 1. Install dependencies
- Open a terminal and run
+### 1. Install
+Clone this repository and navigate to aicure_The-Noobs folder
+```bash
+git clone https://github.com/AmanPushkar/aicure_The-Noobs
+cd aicure_The-Noobs
+```
+
+### 1. Install packages
 ```bash
 pip install joblib
 ```
