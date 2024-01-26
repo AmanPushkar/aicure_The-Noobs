@@ -6,7 +6,7 @@ The goal is to construct an advanced model capable of accurately predicting an i
 
 ## Files Descriptions
 - '.ipynb' : Jupyter notebook containing your experiments
-- '.joblib' : Contains the our Machine Learning Model
+- '.joblib' : Trained model to be used.
 - 'run.py': Script which runs the model and predicts and stores the output in a .csv file based on the input (.csv) given.
 - 'Report' : Contains the research work done to decide upon which Machine Learning Model to be used.
 
@@ -30,7 +30,6 @@ pip install sklearn.preprocessing
 
 To generate the `results.csv` that contains the predicted Heart Rate values, run:
 ```bash
-python run.py sample_test_data.csv
+python run.py test_data.csv
 ```
-Replace 'sample_test_data.csv' with your own test data.
 
